@@ -71,7 +71,7 @@ button{
 
 .carousel-item{
     width: 50%;
-    height: 100%;
+    height: 50%;
 }
 
 @media(max-width:770px) {
@@ -79,7 +79,4 @@ button{
         width: 100%;
         height: 100%;
     }
-}
-.navegacao{
-    margin-left: 200px;
 }

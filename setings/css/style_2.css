@@ -80,6 +80,9 @@ body {
 .pesquisa-button:hover {
     background-color: darkgreen;
 }
+.checkout-button:hover {
+    background-color: #218838;
+}
 
 .barra{
     height: 2.3px;
@@ -128,8 +131,6 @@ body {
     position: relative; 
 }
 
-
-
 .lista {
     width: 45%; 
     background-color: #fff;
@@ -147,9 +148,9 @@ body {
 }
 
 .summary-header {
-    display: flex; /* Alinha o título e o total de itens na horizontal */
-    justify-content: space-between; /* Espaça os elementos */
-    align-items: center; /* Alinha verticalmente */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .cart-items {
@@ -163,16 +164,13 @@ body {
 }
 
 .checkout-button {
-    background-color: #28a745; /* Cor verde */
-    color: white; /* Cor do texto */
-    border: none; /* Remove borda */
-    padding: 10px 15px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    font-size: 1em; /* Tamanho do texto */
-    width: 100%; /* Largura total do botão */
+    background-color: #28a745; 
+    color: white;
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1em; 
+    width: 100%; 
 }
 
-.checkout-button:hover {
-    background-color: #218838; /* Cor mais escura ao passar o mouse */
-}

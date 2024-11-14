@@ -128,3 +128,13 @@ body {
     color: #555;
     margin-top: 4px;
 }
+
+.add {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
