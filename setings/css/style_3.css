@@ -90,9 +90,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
-    max-width: 600px;
     margin: 20px;
+    width: 60%;
 }
 
 .card {
