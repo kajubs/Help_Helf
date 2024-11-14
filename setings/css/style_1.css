@@ -58,11 +58,12 @@ body {
 }
 
 .w10{
-    height: 400px;
+    height: 200px;
 }
 
 .w30 img{
-    width: 50%;
+    height: 600px;
+    width: 100%;
 }
 
 button{
@@ -70,7 +71,7 @@ button{
 }
 
 .carousel-item{
-    width: 50%;
+    width: 100%;
     height: 50%;
 }
 

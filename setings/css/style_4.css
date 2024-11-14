@@ -60,7 +60,6 @@ body {
 }
 
 .container-fluid{
-    display: flex;
     justify-content: space-around;
 }
 
