@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #80f775;
+    padding: 10px 20px;
+} 
+
+.navbar .logo img {
+    height: 70px; 
+}
+
+.nav-pag {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-pag a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-pag a:hover {
+    background-color: #86be67;
+}
+
+.ajuda-button {
+    background-color: green; 
+    color: white;
+    border-radius: 5px; 
+}
+
+.ajuda-button:hover {
+    background-color: darkgreen; 
+}
+.barra{
+    height: 2.3px;
+    width: 100%;
+    background-color: grey;}
+
+
+.w10{
+    background-color: rgb(191, 255, 139);
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.w30 h2{
+    margin-top: 10%;
+}
+
+.w10{
+    height: 400px;
+}
+
+.w30 img{
+    width: 50%;
+}
+
+button{
+    margin-top: 0px;
+}
+
+.carousel-item{
+    width: 50%;
+    height: 100%;
+}
+
+@media(max-width:770px) {
+    .carousel-item{
+        width: 100%;
+        height: 100%;
+    }
+}
+.navegacao{
+    margin-left: 200px;
+}

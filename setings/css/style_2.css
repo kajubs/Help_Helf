@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #80f775;
+    padding: 10px 20px;
+} 
+
+.navbar .logo img {
+    height: 70px; 
+}
+
+.nav-pag {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-pag a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-pag a:hover {
+    background-color: #86be67;
+}
+
+.ajuda-button {
+    background-color: green; 
+    color: white;
+    border-radius: 5px; 
+}
+
+.ajuda-button:hover {
+    background-color: darkgreen; 
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; 
+    padding: 40px;
+    background-color: #fefcfc; 
+}   
+
+.titulo h1 {
+    font-size: 3em;
+}
+
+.pesquisa-container {
+    display: flex; 
+    margin-right: 90px; 
+}
+
+.pesquisa-button {
+    padding: 20px 25px;         
+    background-color: green; 
+    color: rgba(67, 247, 60, 0.881); 
+    border-radius: 5%; 
+    cursor: pointer;
+    position: relative; 
+}
+
+.pesquisa-button::before {
+    position: absolute; 
+    left: 50%; top: 50%; 
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.pesquisa-button:hover {
+    background-color: darkgreen;
+}
+
+.barra{
+    height: 2.3px;
+    width: 100%;
+    background-color: grey;
+}
+.result-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: #e9ecef; 
+    margin-top: 20px; 
+    border-radius: 5px; 
+}
+
+.result-text {
+    margin: 0; 
+    font-size: 0.9em; 
+    color: rgba(0, 0, 0, 0.6); 
+}
+.result-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #e9ecef; 
+    margin-top: 20px; 
+    border-radius: 5px; 
+}
+
+.result-item {
+    display: flex;
+    align-items: center; 
+}
+
+.result-button {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    font-size: 1em; 
+    color: rgba(0, 0, 0, 0.6);
+    display: flex; 
+    align-items: center; 
+    position: relative; 
+}
+
+
+
+.lista {
+    width: 45%; 
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.cart-summary {
+    width: 45%; 
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 5px; 
+   
+}
+
+.summary-header {
+    display: flex; /* Alinha o título e o total de itens na horizontal */
+    justify-content: space-between; /* Espaça os elementos */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.cart-items {
+    padding: 0;
+    margin: 20px 0;/
+}
+
+.cart-items li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.checkout-button {
+    background-color: #28a745; /* Cor verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 1em; /* Tamanho do texto */
+    width: 100%; /* Largura total do botão */
+}
+
+.checkout-button:hover {
+    background-color: #218838; /* Cor mais escura ao passar o mouse */
+}

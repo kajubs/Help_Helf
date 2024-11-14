@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #80f775;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 70px;
+}
+
+.nav-pag {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-pag a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-pag a:hover {
+    background-color: #86be67;
+}
+
+.ajuda-button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.ajuda-button:hover {
+    background-color: darkgreen;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    background-color: #fefcfc;
+}
+
+.titulo h1 {
+    font-size: 3em;
+}
+
+.pesquisa-container {
+    display: flex;
+    margin-right: 90px;
+}
+
+.pesquisa-button {
+    padding: 20px 25px;
+    background-color: green;
+    color: rgba(67, 247, 60, 0.881);
+    border-radius: 5%;
+    cursor: pointer;
+    position: relative;
+}
+
+.pesquisa-button::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pesquisa-button:hover {
+    background-color: darkgreen;
+}
+
+.barra {
+    height: 2.3px;
+    width: 100%;
+    background-color: grey;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+}

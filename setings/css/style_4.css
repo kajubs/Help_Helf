@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #80f775;
+    padding: 10px 20px;
+} 
+
+.navbar .logo img {
+    height: 70px; 
+}
+
+.nav-pag {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-pag a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav-pag a:hover {
+    background-color: #86be67;
+}
+
+.ajuda-button {
+    background-color: green; 
+    color: white;
+    border-radius: 5px; 
+}
+
+.ajuda-button:hover {
+    background-color: darkgreen; 
+}
+.barra{
+    height: 2.3px;
+    width: 100%;
+    background-color: grey;}
+
+
+.w25{
+    height: 25%;
+    width: 100%;
+}
+.w75{
+    height: 75%;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    width: 100%; 
+    padding: 20px;
+    background-color: #fefcfc; 
+}   
+
+.titulo h1 {
+    font-size: 3em;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.w50{
+    width: 50%;
+}
+
+.container section{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
